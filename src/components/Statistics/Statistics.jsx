@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Text } from './Statistics.styled';
 import { Notification } from '../Notification/Notification';
 import PropTypes from 'prop-types';

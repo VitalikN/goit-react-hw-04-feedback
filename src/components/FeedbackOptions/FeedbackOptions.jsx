@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container, Btn } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
+const options = ['good', 'neutral', 'bad'];
+export const FeedbackOptions = ({ onLeaveFeedback }) => (
   <Container>
     {options.map(el => (
       <Btn key={el} type="button" onClick={() => onLeaveFeedback(el)}>
